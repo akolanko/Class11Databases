@@ -8,7 +8,7 @@ require "./models"
 get "/" do
 	User.create(fname: "Leksi", lname: "Kolanko", email: "atkolanko@gmail.com")
 	@user = User.last
-	Profile.create(gender: "female", birthday: "May 15, 1990", city: "Brooklyn", religion: "Atheism", education: "Vassar College 2012", job: "Reverse Artspace")
+	Profile.create(gender: "female", birthday: "May 15, 1990", city: "Brooklyn", religion: "Atheism", education: "Vassar College 2012", employment: "Reverse Artspace")
 	@profile = Profile.last
 	erb :home
 end

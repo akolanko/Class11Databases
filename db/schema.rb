@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140224175852) do
+ActiveRecord::Schema.define(version: 20140224184600) do
 
   create_table "profiles", force: true do |t|
     t.string "gender"
@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 20140224175852) do
     t.string "city"
     t.string "religion"
     t.string "education"
-    t.string "job"
+    t.string "employment"
   end
 
   create_table "users", force: true do |t|
