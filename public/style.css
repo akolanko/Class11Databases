@@ -1,0 +1,32 @@
+body{
+	font-family: "Sackers Gothic Std", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	text-transform: lowercase;
+	line-height: 140%;
+}
+
+#container{
+	width: 900px;
+	margin: 30px auto;
+}
+
+h1{
+	font-size: 16px;
+	letter-spacing: .15em;
+}
+
+img#user{
+	padding: 10px;
+}
+
+#profile{
+	text-align: left;
+	margin: 20px 0 0 210px;
+}
+
+h2{
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
